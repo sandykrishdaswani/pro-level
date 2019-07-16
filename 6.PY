@@ -4,6 +4,6 @@ aA1=0
 for i in range(bAc):
   for j in range(i,bAc):
     for k in range(j,bAc):
-      if(s1[i]<s1[j]<sA1[k]):
+      if(sA1[i]<sA1[j]<sA1[k]):
         aA1+=1
-print(a1)
+print(aA1)
