@@ -1,3 +1,4 @@
+from itertools import permutations
 sandy, krish = map(int, input().split())
 x = list(map(int, input().split()))
 for i in permutations(x, 2):
