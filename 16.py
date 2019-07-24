@@ -1,7 +1,7 @@
 sandy1=int(input())
 cat=list(map(int,input().split()))
-y=[1]*a1
-for i in range(a1):
+y=[1]*sandy1
+for i in range(sandy1):
     if i==0:
         if cat[i]>cat[i+1]:
             y[i]=y[i]+y[i+1]
