@@ -1,4 +1,4 @@
-or,kr=map(int,input().split())
+o,kr=map(int,input().split())
 
 pr=list(map(int,input().split()))
 
@@ -8,17 +8,17 @@ tr=[]
 
 cr=0
 
-for i in range(or):
+for i in range(o):
 
     xr=vr[i]/pr[i]
 
-    t.append(xr)
+    tr.append(xr)
 
 while kr>=0 and len(tr)>0:
 
     mindex=tr.index(max(tr))
 
-    if kr>=p[mindex]:
+    if kr>=pr[mindex]:
 
         cr=cr+vr[mindex]
 
