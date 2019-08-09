@@ -2,7 +2,7 @@ sandy=int(input())
 isi=0
 xsy=0
 bs=[]
-while isi<90 and ii<inp:
+while isi<90 and isi<sandy:
 
   ss=0
 
@@ -12,7 +12,7 @@ while isi<90 and ii<inp:
 
   if ss+(sandy-isi)==sandy:
 
-    xy+=1
+    xsy+=1
 
     bs.append(sandy-isi)
 
