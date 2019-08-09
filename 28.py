@@ -5,6 +5,6 @@ sin=0
 san=0
 for i in range(len(mom)):
     if mom[i]>=sin:
-        sa=san+1
-    sin=sin+mo[i]
+        san=san+1
+    sin=sin+mom[i]
 print(san)
